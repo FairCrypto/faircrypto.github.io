@@ -1,2 +1,4 @@
 title: Xen Crypto Documentation
 description: Xen Crypto Documentation
+minima:
+  skin: auto
