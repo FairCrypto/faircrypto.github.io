@@ -5,9 +5,10 @@ author:
   name: Fair Crypto Foundation
   url: https://faircrypto.org
 
-#plugins:
-#  - jekyll-remote-theme
-#remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-titles-from-headings
+remote_theme: jekyll/minima
 minima:
   skin: auto
   social_links:
@@ -16,3 +17,8 @@ minima:
     - { platform: telegram, user_url: "https://t.me/XENCryptoTalk" }
     - { platform: youtube, user_url: "https://m.youtube.com/channel/UCiw5nyHHt9BPHvoRbcGNehA/playlists" }
 show_excerpts: false
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
