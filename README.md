@@ -7,10 +7,10 @@ It is designed and built to deliver on the First Principles of Crypto.
 
 ## Projects
 
-- [X1](faircrypto.github.io/x1)
-- [Xen Crypto](https://github.com/FairCrypto/xen-crypto)
-- [XeNFT](https://github.com/FairCrypto/XENFT)
-- [Xen Stake](https://github.com/FairCrypto/XEN-stake)
+- [X1 Network](https://docs.xen.network/x1)
+- [Xen Crypto](https://docs.xen.network/XEN-crypto)
+- [XeNFT](https://docs.xen.network/XENFT)
+- [Xen Stake](https://docs.xen.network/XEN-stake)
 
 ## Social
 - [Twitter](https://twitter.com/XEN_Crypto)
