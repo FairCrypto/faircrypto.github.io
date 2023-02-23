@@ -1,6 +1,4 @@
----
-title: Xen Crypto
----
+# Xen Crypto
 
 XEN is a cryptocurrency for the masses.
 It is designed and built to deliver on the First Principles of Crypto.
