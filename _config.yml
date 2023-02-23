@@ -8,7 +8,7 @@ author:
 plugins:
   - jekyll-remote-theme
   - jekyll-titles-from-headings
-remote_theme: jekyll/minima
+remote_theme: FairCrypto/minima
 minima:
   skin: auto
   social_links:
