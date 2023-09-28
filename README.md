@@ -12,3 +12,4 @@ It is designed and built to deliver on the First Principles of Crypto.
 - [XeNFT](https://docs.xen.network/XENFT)
 - [Xen Stake](https://docs.xen.network/XEN-stake)
 - [Xen Miner](https://github.com/jacklevin74/xenminer)
+- [XenGPT Chatbot](https://xengpt.ai/)
