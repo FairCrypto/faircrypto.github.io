@@ -7,7 +7,7 @@ It is designed and built to deliver on the First Principles of Crypto.
 
 ## Projects
 
-- [X1 Network](https://docs.xen.network/x1)
+- [X1 Network](https://docs.xen.network/go-x1)
 - [Xen Crypto](https://docs.xen.network/XEN-crypto)
 - [XeNFT](https://docs.xen.network/XENFT)
 - [Xen Stake](https://docs.xen.network/XEN-stake)
