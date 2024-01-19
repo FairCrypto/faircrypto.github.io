@@ -1,15 +1,18 @@
-# Xen Crypto
+# The Home page for Xen Network's Docs
 
-XEN is a cryptocurrency for the masses.
-It is designed and built to deliver on the First Principles of Crypto.
+## Development
 
-[Fair Crypto Foundation](https://faircrypto.org/)
+> Install the dependencies
+```shell
+npm install
+```
 
-## Projects
+> Run the development server with hot reload for the root docs
+```shell
+npm run docs:dev
+```
 
-- [X1 Network](https://docs.xen.network/go-x1)
-- [Xen Crypto](https://docs.xen.network/XEN-crypto)
-- [XeNFT](https://docs.xen.network/XENFT)
-- [Xen Stake](https://docs.xen.network/XEN-stake)
-- [Xen Miner](https://github.com/jacklevin74/xenminer)
-- [XenGPT Chatbot](https://xengpt.ai/)
+## Deployment
+
+Commit and push your changes to the `main` branch.
+Github action will automatically deploy the changes to the [docs site](https://docs.xen.network).
