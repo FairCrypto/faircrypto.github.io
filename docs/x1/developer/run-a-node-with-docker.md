@@ -12,7 +12,7 @@ head:
 
 # Running with Docker
 
-See the Docker packages [here](https://github.com/go-x1/faircrypto/pkgs/container/go-x1).
+See the Docker packages [here](https://github.com/faircrypto/go-x1/pkgs/container/go-x1).
 
 > Pull the latest image
 
