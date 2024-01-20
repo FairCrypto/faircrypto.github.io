@@ -18,7 +18,7 @@ thereby enhancing the network's security and facilitating the creation of new bl
 
 ::: info Requirements
 
-- Minimum state requirement: 100,000 XN
+- Minimum stake requirement: 100,000 XN
 - Maximum stake: 15x the minimum state amount
 - Earn staking rewards and a 15% fee on delegator's rewards
 - Minimum hardware requirements: AWS T2.large EC2 (or equivalent) and at least
@@ -30,22 +30,23 @@ thereby enhancing the network's security and facilitating the creation of new bl
 Following the [Developer Docs](./getting-started) guide to install and run a full node. 
 
 ::: tip 
-Allow the node to **fully sync** before moving forward.
-:::
+Allow the node to **fully sync** before proceeding to the next steps.
 
 ## Step 2: Fund a wallet
 
-Fund a wallet with enough XN to become a validator. 
+Deposit enough XN into your wallet to meet the validator requirements. 
 
-At the time of writing, you need at least 100,000 XN (plus gas fees) to become a validator.
+As of the current writing, a minimum of 100,000 XN (plus gas fees) is required.
 
 ::: warning
-We highly recommend using a hardware wallet to keep your funds secure.
+For enhanced security, the use of a hardware wallet is strongly recommended.
 :::
 
-## Step 3: Create Validator Key
+## Step 3: Create a Validator Key
 
-Create validator key with go-x1. Take note of the validator public key; we will need it later. Enter a strong password when prompted.
+Generate a validator key using x1. Remember to note down the validator public key, as it will be needed later. 
+Set a strong password when prompted.
+
 ::: tabs key:os
 
 == Linux Service
