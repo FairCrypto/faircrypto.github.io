@@ -111,6 +111,8 @@ function head(): HeadConfig[] {
           '/x1/developer/': '/x1/developer/getting-started',
           '/xen-crypto': '/xen-crypto/overview',
           '/xen-crypto/': '/xen-crypto/overview',
+          '/go-x1': '/x1/explore-the-network',
+          '/go-x1/': '/x1/explore-the-network',
           '/go-x1/docs': '/x1/explore-the-network',
           '/go-x1/docs/': '/x1/explore-the-network',
           '/go-x1/docs/validators': '/x1/developer/become-a-validator',
