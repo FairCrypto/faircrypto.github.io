@@ -1,3 +1,15 @@
+---
+titleTemplate: X1 Blockchain
+description: How to run a X1 Blockchain as a system service
+head:
+  - - meta
+    - property: og:image
+      content: /x1-logo.png
+  - - meta
+    - property: twitter:image
+      content: /x1-logo.png
+---
+
 # Run Node as a System Service
 
 We recommend running X1 as a system service.
@@ -19,19 +31,23 @@ We provide ready-to-use example config files for each node type.
 ::: code-group
 
 ```bash [Full Node]
-cp /usr/local/share/x1/configs/testnet/full-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/full-node.toml \
+  /etc/x1/config.toml
 ```
 
 ```bash [API Node]
-cp /usr/local/share/x1/configs/testnet/api-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/api-node.toml \
+  /etc/x1/config.toml
 ```
 
 ```bash [Archive Node]
-cp /usr/local/share/x1/configs/testnet/archive-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/archive-node.toml \
+  /etc/x1/config.toml
 ```
 
 ```bash [Validator]
-cp /usr/local/share/x1/configs/testnet/validator-node.toml /etc/x1/config.toml
+cp /usr/local/share/x1/configs/testnet/validator-node.toml \
+  /etc/x1/config.toml
 ```
 
 == MacOS
@@ -44,22 +60,22 @@ We provide ready-to-use example config files for each node type.
 ::: code-group
 
 ```bash [Full Node]
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/full-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/full-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
 ```bash [API Node]
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/api-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/api-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
 ```bash [Archive Node
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/archive-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/archive-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
 ```bash [Validator Node
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/validator-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 

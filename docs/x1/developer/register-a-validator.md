@@ -1,3 +1,15 @@
+---
+titleTemplate: X1 Blockchain
+description: Register a validator name and icon to help X1 delegators find you.
+head:
+   - - meta
+     - property: og:image
+       content: /x1-logo.png
+   - - meta
+     - property: twitter:image
+       content: /x1-logo.png
+---
+
 # Register a Validator
 
 Register a validator name and icon to help X1 delegators find you.

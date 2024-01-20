@@ -1,3 +1,15 @@
+---
+titleTemplate: X1 Blockchain
+description: How to become a validator on the X1 Network
+head:
+  - - meta
+    - property: og:image
+      content: /x1-logo.png
+  - - meta
+    - property: twitter:image
+      content: /x1-logo.png
+---
+
 # Become a Validator
 
 Validator nodes are a crucial component of the X1 network.
@@ -15,7 +27,7 @@ thereby enhancing the network's security and facilitating the creation of new bl
 
 ## Step 1: Run A Full Node
 
-Following the [Developer Docs](../developer) guide to install and run a full node. 
+Following the [Developer Docs](./getting-started) guide to install and run a full node. 
 
 ::: tip 
 Allow the node to **fully sync** before moving forward.
@@ -118,12 +130,11 @@ journalctl -t x1 -f
 
 ```shell [MacOS Service]
 # Use the example config file for a validator node
-cp $HOMEBREW_PREFIX/usr/local/share/x1/configs/testnet/validator-node.toml \
+cp $HOMEBREW_PREFIX/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 
-# Edit the config file and update the Validator ID,
-# public key, and password file's path.
-# (Use your favorite text editor)
+# Edit the config file (use your favorite text editor) and update the Validator ID,
+# public key, and password file's path (use the full path: ex: /Users/cool_person/.x1/.password).
 nano $HOMEBREW_PREFIX/etc/x1/config.toml
 
 # Restart the node

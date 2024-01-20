@@ -1,7 +1,15 @@
 ---
+description: X1 is a simple, fast, and secure EVM-compatible network for the next generation of decentralized applications powered by the Fantom Lachesis consensus algorithm.
 next: 
   link: ./developer/getting-started
   text: Developer Docs
+head:
+  - - meta
+    - property: og:image
+      content: /x1-logo.png
+  - - meta
+    - property: twitter:image
+      content: /x1-logo.png
 ---
 
 # X1 Blockchain

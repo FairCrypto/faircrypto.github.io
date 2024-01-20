@@ -4,11 +4,11 @@ layout: home
 hero:
   name: Xen Network Docs
   text: Fair Crypto
-  tagline: The home of Xen Crypto and the X1 Blockchain.
-#  tagline: Lorem ipsum...
+  tagline: The home of Xen Crypto and the X1 Blockchain
 #  image:
-#    src: 
-#    alt: X1
+#    src: xen-logo.svg
+#    alt: XEN Network Logo
+#    width: 200px
   actions:
 #    - theme: brand
 #      text: Get Started

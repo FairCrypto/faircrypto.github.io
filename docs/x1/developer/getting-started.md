@@ -1,3 +1,15 @@
+---
+titleTemplate: X1 Blockchain
+description: Getting started with X1 is easy. This guide will walk you through the process of installing X1 on your system.
+head:
+  - - meta
+    - property: og:image
+      content: /x1-logo.png
+  - - meta
+    - property: twitter:image
+      content: /x1-logo.png
+---
+
 # Getting Started
 
 Whether you're interested in running an API node for a decentralized application, acting as a validator to stake XN, or operating a full node, contributing to the X1 Network is a rewarding endeavor. Embarking on this journey is straightforward. Simply adhere to the guidelines provided below.
@@ -58,6 +70,9 @@ brew install faircrypto/go-x1/x1
 # Install dependencies (ex: ubuntu)
 apt update -y
 apt install -y golang wget git make
+
+# Redhat/Centos
+# dnf install -y git wget sudo golang make
 
 # Clone and build the X1 binary
 git clone --branch x1 https://github.com/FairCrypto/go-x1

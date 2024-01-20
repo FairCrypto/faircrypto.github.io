@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 import { type DefaultTheme } from 'vitepress'
+import {HeadConfig} from "vitepress/types/shared";
 
 // https://vitepress.dev/reference/site-config
 
@@ -58,13 +59,15 @@ function sidebarXenCrypto(): DefaultTheme.SidebarItem[] {
 }
 
 export default defineConfig({
-  title: 'Xen Network Docs',
-  description: "Xen Network by Faircrypto is a cryptocurrency platform designed to adhere to the fundamental principles of crypto, making it widely accessible",
+  title: 'Xen Network Documentation',
+  description: "Xen Network by Faircrypto is a cryptocurrency platform designed to adhere to the fundamental principles of crypto, making it widely accessible.",
 
   cleanUrls: true,
   lastUpdated: true,
 
   themeConfig: {
+    siteTitle: 'Xen Network Docs',
+
     footer: {
       copyright: 'Copyright © 2024 <a href="https://faircrypto.org/">Fair Crypto</a>'
     },
@@ -91,8 +94,12 @@ export default defineConfig({
     }
   },
 
-  // adding some redirects
-  head: [
+  head: head()
+})
+
+function head(): HeadConfig[] {
+  return [
+    // adding some redirects
     [
       'script',
       { id: 'redirects' },
@@ -110,6 +117,27 @@ export default defineConfig({
           window.location.replace(redirect)
         }
       })()`
-    ]
-  ]
-})
+    ],
+
+    // facebook meta
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image', content: '/xen-logo.svg' }],
+
+    // twitter meta
+    ['meta', { property: 'twitter:title', content: 'XEN Network Documentation'}],
+    ['meta', { property: 'twitter:card', content: 'summary'}],
+    ['meta', { property: 'twitter:site', content: '@XEN_Crypto'}],
+    ['meta', { property: 'twitter:description', content: 'Xen Network by Faircrypto is a cryptocurrency platform designed to adhere to the fundamental principles of crypto, making it widely accessible'}],
+    ['meta', { property: 'twitter:image', content: '/xen-logo.svg'}],
+
+    // generic meta
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+    ['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
+  ];
+}
+
