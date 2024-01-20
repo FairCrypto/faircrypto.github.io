@@ -46,15 +46,15 @@ wget -O go-x1_linux-arm64.deb \
 sudo dpkg -i go-x1_linux-arm64.deb
 ```
 
-== Radhat (x86)
+== Redhat (x86)
 
-```shell [Radhat (x86)]
+```shell [Redhat (x86)]
 sudo dnf install -y https://gh.infrafc.org/go-x1_linux-x86_64.rpm
 ```
 
-== Radhat (arm64)
+== Redhat (arm64)
 
-```shell [Radhat (arm64)]
+```shell [Redhat (arm64)]
 sudo dnf install -y https://gh.infrafc.org/go-x1_linux-arm64.rpm
 ```
 
