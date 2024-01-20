@@ -86,26 +86,27 @@ Access the [SFC Contract](https://explorer.x1-testnet.xen.network/address/0xFC00
 
 ## Step 6: Connect Your Wallet
 
-Click the "Connect wallet" button and connect to your validator wallet.
+Use the “Connect wallet” button to link your validator wallet.
 
 [![Connect wallet](connect-wallet.png)](connect-wallet.png)
 
 ## Step 7: Enter Your Validator Public Key
 
-Enter your validator public key from step 3 and the amount of XN you want to stake, then click "Write".
+Input your validator public key and desired stake amount, then click “Write.”
 
 [![Connect wallet](create-validator.png)](create-validator.png)
 
 ## Step 8: Confirm the Transaction
 
-Confirm the transaction in your wallet.
+Approve the transaction through your wallet.
 
 ## Step 9: Verify Your Validator Registration
 
-Verify your validator registration by searching for your validator ID on the [PWA explorer](https://pwa-explorer.x1-testnet.xen.network/staking) using your wallet account.
-Make note of the validation ID.
+Confirm your validator status by finding your validator ID on the [PWA explorer](https://pwa-explorer.x1-testnet.xen.network/staking) using your wallet account, and note down the ID.
 
-## Step 10: Edit the config file and update the Validator ID, public key, and password file path.
+## Step 10: Update the X1 Configuration File
+
+Update the configuration file with your Validator ID, public key, and password file location.
 
 ::: tabs key:os
 == Linux Service
