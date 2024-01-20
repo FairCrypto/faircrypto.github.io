@@ -31,6 +31,7 @@ Following the [Developer Docs](./getting-started) guide to install and run a ful
 
 ::: tip 
 Allow the node to **fully sync** before proceeding to the next steps.
+:::
 
 ## Step 2: Fund a wallet
 
