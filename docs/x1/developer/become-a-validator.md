@@ -75,15 +75,14 @@ x1 validator new
 
 ## Step 4: Save the Validator Password
 
-Place the Validator Password in a File.
-
+> Securely store your validator password in a file using the given command:
 ```shell
 echo "MY_STRONG_PASSWORD" > ~/.x1/.password
 ```
 
 ## Step 5: Navigate to the X1 Explorer
 
-Navigate to the [SFC Contract](https://explorer.x1-testnet.xen.network/address/0xFC00FACE00000000000000000000000000000000/write-contract#address-tabs) on the explorer.
+Access the [SFC Contract](https://explorer.x1-testnet.xen.network/address/0xFC00FACE00000000000000000000000000000000/write-contract#address-tabs) through the X1 Explorer.
 
 ## Step 6: Connect Your Wallet
 
