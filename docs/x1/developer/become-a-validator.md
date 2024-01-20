@@ -78,6 +78,7 @@ x1 validator new
 > Securely store your validator password in a file using the given command:
 ```shell
 echo "MY_STRONG_PASSWORD" > ~/.x1/.password
+chmod 600 ~/.x1/.password
 ```
 
 ## Step 5: Navigate to the X1 Explorer
