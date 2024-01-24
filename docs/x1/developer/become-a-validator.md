@@ -29,7 +29,7 @@ thereby enhancing the network's security and facilitating the creation of new bl
 
 Following the [Developer Docs](./getting-started) guide to install and run a full node. 
 
-::: tip 
+::: danger DO NOT SKIP THIS STEP!
 Allow the node to **fully sync** before proceeding to the next steps.
 :::
 
