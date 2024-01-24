@@ -95,7 +95,11 @@ export default defineConfig({
     }
   },
 
-  head: head()
+  head: head(),
+
+  sitemap: {
+    hostname: 'https://docs.xen.network'
+  }
 })
 
 function head(): HeadConfig[] {
