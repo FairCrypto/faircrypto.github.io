@@ -69,12 +69,12 @@ cp $HOMEBREW_PREFIX/share/x1/configs/testnet/api-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
-```bash [Archive Node
+```bash [Archive Node]
 cp $HOMEBREW_PREFIX/share/x1/configs/testnet/archive-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
 
-```bash [Validator Node
+```bash [Validator Node]
 cp $HOMEBREW_PREFIX/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
 ```
