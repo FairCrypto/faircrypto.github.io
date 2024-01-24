@@ -37,6 +37,7 @@ function sidebarX1(): DefaultTheme.SidebarItem[] {
         { text: 'Run a Node Interactively', link: 'run-a-node-interactively' },
         { text: 'Run a Node Service', link: 'run-a-node-service' },
         { text: 'Run a Node with Docker', link: 'run-a-node-with-docker' },
+        { text: 'Setup Firewall', link: 'setup-firewall' },
         { text: 'Become a Validator', link: 'become-a-validator' },
         { text: 'Register a Validator', link: 'register-a-validator' },
       ]
