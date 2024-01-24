@@ -131,7 +131,9 @@ journalctl -t x1 -f
 
 == MacOS Service
 
-```shell [MacOS Service]
+The following commands assume you have installed x1 using Homebrew.
+
+```shell
 # Use the example config file for a validator node
 cp $HOMEBREW_PREFIX/share/x1/configs/testnet/validator-node.toml \
   $HOMEBREW_PREFIX/etc/x1/config.toml
