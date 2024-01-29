@@ -39,7 +39,7 @@ x1 --testnet \
    --ws.origins "*"
 ```
 
-```shell [Arcive Node]
+```shell [Archive Node]
 x1 --testnet \
    --syncmode full \
    --gcmode archive
