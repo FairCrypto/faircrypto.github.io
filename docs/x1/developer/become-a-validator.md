@@ -19,7 +19,7 @@ thereby enhancing the network's security and facilitating the creation of new bl
 ::: info Requirements
 
 - Minimum stake requirement: 100,000 XN
-- Maximum stake: 15x the minimum state amount
+- Maximum stake: 15x the minimum stake amount
 - Earn staking rewards and a 15% fee on delegator's rewards
 - Minimum hardware requirements: AWS T2.large EC2 (or equivalent) and at least
   800GB of Amazon EBS General Purpose SSD (gp2) storage (or equivalent).
