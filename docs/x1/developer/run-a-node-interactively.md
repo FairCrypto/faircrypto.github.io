@@ -21,13 +21,11 @@ Continue to [Running Node Service](./run-a-node-service.md) for a production rea
 :::code-group
 
 ```shell [Full Node]
-x1 --testnet \
-  --syncmode snap
+x1 --testnet
 ```
 
 ```shell [API Node]
 x1 --testnet \
-   --syncmode snap \
    --http \
    --http.port 8545 \
    --http.addr 0.0.0.0 \
@@ -47,7 +45,6 @@ x1 --testnet \
 
 ```shell [Validator Node]
 x1 --testnet \
-   --syncmode snap \
    --validator.id YOUR_VALIDATOR_ID \
    --validator.pubkey YOUR_VALIDATOR_PUBKEY \
    --validator.password ~/.x1/.password

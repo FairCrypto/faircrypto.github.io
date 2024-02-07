@@ -156,7 +156,6 @@ tail -f /opt/homebrew/var/log/x1.log
 # Replace `YOUR_VALIDATOR_ID` with your validator ID and
 # `YOUR_VALIDATOR_PUBKEY` with your validator's public key.
 x1 --testnet \
-   --syncmode snap \
    --validator.id YOUR_VALIDATOR_ID \
    --validator.pubkey YOUR_VALIDATOR_PUBKEY \
    --validator.password ~/.x1/.password

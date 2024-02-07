@@ -35,8 +35,7 @@ docker run -d --name x1 \
   -p 5050:5050 \
   -v $HOME/.x1:/root/.x1 \
   ghcr.io/faircrypto/go-x1:latest \
-      --testnet \
-      --syncmode snap
+      --testnet
 ```
 
 ```shell [API Node]
@@ -47,7 +46,6 @@ docker run -d --name x1 \
   -v $HOME/.x1:/root/.x1 \
   ghcr.io/faircrypto/go-x1:latest \
       --testnet \
-      --syncmode snap \
       --http \
       --http.port 8545 \
       --http.addr 0.0.0.0 \
@@ -75,7 +73,6 @@ docker run -d --name x1 \
   -v $HOME/.x1:/root/.x1 \
   ghcr.io/faircrypto/go-x1:latest \
       --testnet \
-      --syncmode snap \
       --validator.id YOUR_VALIDATOR_ID \
       --validator.pubkey YOUR_VALIDATOR_PUBKEY \
       --validator.password ~/.x1/.password
